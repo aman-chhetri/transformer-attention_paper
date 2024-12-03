@@ -13,7 +13,7 @@ This is my from-scratch implementation of the original transformer architecture 
 
 1. [Introduction](#introduction) - ✅
 2. [Prerequisites](#prerequisites) - `TBA` (to be added)
-3. [Architecture Overview](#architecture-overview) - `TBA`
+3. [Architecture Overview](#architecture-overview) - ✅
 4. [Implementation Details](#implementation-details) - `TBA`
 5. [Training](#training) - `TBA`
 6. [Evaluation](#evaluation) - `TBA`
