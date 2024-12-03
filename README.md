@@ -49,7 +49,7 @@ pip install -r requirements.txt
 The architecture of the Transformer model consists of two main parts: the `Encoder` and the `Decoder`. Both of these components use stacked layers of multi-head self-attention and position-wise feedforward networks. 
 
 <p align="center">
-  <img width="700" height="540" src="/assets/transformer_architecture.png" alt="Transformer Architecture Diagram">
+  <img width="600" height="540" src="/assets/transformer_architecture.png" alt="Transformer Architecture Diagram">
 </p>
 
 
