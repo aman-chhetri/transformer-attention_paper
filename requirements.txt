@@ -1,0 +1,5 @@
+numpy
+matplotlib
+scikit-learn
+tensorflow  # If using TensorFlow
+torch      # If using PyTorch
