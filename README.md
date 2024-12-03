@@ -11,8 +11,8 @@ This is my from-scratch implementation of the original transformer architecture 
 
 ## Table of Contents
 
-1. [Introduction](#introduction) - `TBA` (to be added)
-2. [Prerequisites](#prerequisites) - `TBA`
+1. [Introduction](#introduction) - ✅
+2. [Prerequisites](#prerequisites) - `TBA` (to be added)
 3. [Architecture Overview](#architecture-overview) - `TBA`
 4. [Implementation Details](#implementation-details) - `TBA`
 5. [Training](#training) - `TBA`
@@ -22,14 +22,14 @@ This is my from-scratch implementation of the original transformer architecture 
 9. [References](#references) - ✅
 
 
-<!-- ## 1. Introduction
+## 1. Introduction
 
-The Transformer model, proposed in the paper *"Attention Is All You Need"*, eliminates the need for recurrent architectures (RNNs) and instead uses a self-attention mechanism to process sequential data. This allows the model to better capture relationships within data and enables parallelization, significantly improving training efficiency.
+The `Transformer` model, proposed in the paper *"Attention Is All You Need"*, eliminates the need for recurrent architectures (RNNs) and instead uses a `self-attention mechanism` to process sequential data. This allows the model to better capture relationships within data and enables parallelization, significantly improving training efficiency.
 
-In this repository, we implement the core ideas presented in the paper and provide a clear walkthrough of how to implement and train the Transformer for various NLP tasks.
+In this repository, I implement the core ideas presented in the paper and provide a clear walkthrough of how to implement and train the Transformer for various NLP tasks.
 
 
-## 2. Prerequisites
+<!-- ## 2. Prerequisites
 
 Before running the implementation, ensure you have the following dependencies:
 
@@ -43,18 +43,23 @@ You can install the required dependencies by running:
 
 ```bash
 pip install -r requirements.txt
-```
+``` -->
 
 ## 3. Architecture Overview
-The architecture of the Transformer model consists of two main parts: the Encoder and the Decoder. Both of these components use stacked layers of multi-head self-attention and position-wise feedforward networks. 
+The architecture of the Transformer model consists of two main parts: the `Encoder` and the `Decoder`. Both of these components use stacked layers of multi-head self-attention and position-wise feedforward networks. 
+
+<p align="center">
+  <img src="/assets/transformer_architecture.png" alt="Transformer Architecture Diagram">
+</p>
+
 
 ### Key Components:
-* Self-Attention: Helps the model focus on different parts of the input sequence when encoding/decoding.
-* Positional Encoding: Adds information about the relative positions of words in the sequence.
-* Multi-Head Attention: Multiple attention mechanisms run in parallel, allowing the model to learn from different aspects of the input data simultaneously.
-* Feedforward Networks: Simple neural networks that process each token individually after the attention layer.
+* `Self-Attention`: Helps the model focus on different parts of the input sequence when encoding/decoding.
+* `Positional Encoding`: Adds information about the relative positions of words in the sequence.
+* `Multi-Head Attention`: Multiple attention mechanisms run in parallel, allowing the model to learn from different aspects of the input data simultaneously.
+* `Feedforward Networks`: Simple neural networks that process each token individually after the attention layer.
 
-
+<!-- 
 ## 4. Implementation Details
 The implementation is based on the architecture described in the paper and follows these key steps:
 
@@ -82,9 +87,10 @@ Final Output:
 
 * Linear layer with softmax activation for generating the output sequence.
 
-The entire model is built using either TensorFlow or PyTorch. You can switch between frameworks by selecting the appropriate implementation.
+The entire model is built using either TensorFlow or PyTorch. You can switch between frameworks by selecting the appropriate implementation. -->
 
 
+<!-- 
 ## 5. Training
 The Transformer model is trained using supervised learning on large-scale datasets (e.g., language translation). The training process involves:
 
@@ -96,9 +102,9 @@ To train the model, simply run:
 
 ```bash
 python train.py --dataset path_to_dataset
-```
+``` -->
 
-## 6. Evaluation
+<!-- ## 6. Evaluation
 After training, evaluate the model's performance on validation and test datasets. The evaluation script calculates metrics such as:
 
 * BLEU Score: For machine translation tasks.
@@ -108,9 +114,9 @@ Run the evaluation with:
 
 ```bash
 python evaluate.py --model path_to_trained_model --dataset path_to_test_data
-```
+``` -->
 
-
+<!-- 
 ## 7. Usage
 Once the model is trained, you can use it for various NLP tasks like language translation or text generation.
 
