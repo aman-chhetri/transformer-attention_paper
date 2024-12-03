@@ -1,4 +1,4 @@
-# Attention Is All You Need Paper Implementation
+# Attention Is All You Need Paper Implementation ✨📝
 
 This is my from-scratch implementation of the original transformer architecture from the following paper: [Vaswani, Ashish, et al. "Attention is all you need." Advances in neural information processing systems. 2017.](https://arxiv.org/abs/1706.03762)
 
@@ -22,14 +22,14 @@ This is my from-scratch implementation of the original transformer architecture 
 9. [References](#references) - ✅
 
 
-## 1. Introduction
+## 1. Introduction 📘
 
 The `Transformer` model, proposed in the paper *"Attention Is All You Need"*, eliminates the need for recurrent architectures (RNNs) and instead uses a `self-attention mechanism` to process sequential data. This allows the model to better capture relationships within data and enables parallelization, significantly improving training efficiency.
 
 In this repository, I implement the core ideas presented in the paper and provide a clear walkthrough of how to implement and train the Transformer for various NLP tasks.
 
 
-<!-- ## 2. Prerequisites
+<!-- ## 2. Prerequisites 🛠️
 
 Before running the implementation, ensure you have the following dependencies:
 
@@ -45,7 +45,7 @@ You can install the required dependencies by running:
 pip install -r requirements.txt
 ``` -->
 
-## 3. Architecture Overview
+## 3. Architecture Overview 🏗️
 The architecture of the Transformer model consists of two main parts: the `Encoder` and the `Decoder`. Both of these components use stacked layers of multi-head self-attention and position-wise feedforward networks. 
 
 <p align="center">
@@ -60,7 +60,7 @@ The architecture of the Transformer model consists of two main parts: the `Encod
 * `Feedforward Networks`: Simple neural networks that process each token individually after the attention layer.
 
 <!-- 
-## 4. Implementation Details
+## 4. Implementation Details 🧩
 The implementation is based on the architecture described in the paper and follows these key steps:
 
 
@@ -91,7 +91,7 @@ The entire model is built using either TensorFlow or PyTorch. You can switch bet
 
 
 <!-- 
-## 5. Training
+## 5. Training 🏋️‍♂️
 The Transformer model is trained using supervised learning on large-scale datasets (e.g., language translation). The training process involves:
 
 * Loss Function: Categorical Cross-Entropy Loss.
@@ -104,7 +104,7 @@ To train the model, simply run:
 python train.py --dataset path_to_dataset
 ``` -->
 
-<!-- ## 6. Evaluation
+<!-- ## 6. Evaluation 📊
 After training, evaluate the model's performance on validation and test datasets. The evaluation script calculates metrics such as:
 
 * BLEU Score: For machine translation tasks.
@@ -117,7 +117,7 @@ python evaluate.py --model path_to_trained_model --dataset path_to_test_data
 ``` -->
 
 <!-- 
-## 7. Usage
+## 7. Usage 🚀
 Once the model is trained, you can use it for various NLP tasks like language translation or text generation.
 
 Example usage:
@@ -127,7 +127,7 @@ python generate.py --model path_to_trained_model --input "Translate English to F
 ``` -->
 
 
-## 8. Contributions
+## 8. Contributions 🤝
 Contributions are welcome! If you find any bugs, issues, or have suggestions for improvements, feel free to open an issue or submit a pull request.
 
 To contribute:
@@ -138,5 +138,5 @@ To contribute:
 4. Submit a pull request to the main repository.
 
 
-## 9. References
+## 9. References 📚
 1. Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. A., Kaiser, Ł., & Polosukhin, I. (2017). Attention is all you need. NeurIPS.
