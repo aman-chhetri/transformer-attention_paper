@@ -4,7 +4,7 @@ This is my from-scratch implementation of the original transformer architecture 
 
 <a href=https://arxiv.org/pdf/1706.03762.pdf>
   <p align="center">
-    <img width="540" height="700" src="/assets/banner_paper.jpg">
+    <img width="540" height="700" src="/assets/banner_paper.jpg" alt="Attention Paper Banner Img">
   </p>
 </a>
 
