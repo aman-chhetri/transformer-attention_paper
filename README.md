@@ -139,4 +139,6 @@ To contribute:
 
 
 ## 9. References 📚
-1. Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. A., Kaiser, Ł., & Polosukhin, I. (2017). Attention is all you need. NeurIPS.
+<!-- 1. Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. A., Kaiser, Ł., & Polosukhin, I. (2017). Attention is all you need. NeurIPS. [Link](https://arxiv.org/abs/1706.03762) -->
+
+1. Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. A., Kaiser, Ł., & Polosukhin, I. (2017). Attention is all you need. [Link](https://arxiv.org/abs/1706.03762)
