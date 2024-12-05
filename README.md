@@ -115,7 +115,7 @@ After training, evaluate the model's performance on validation and test datasets
 
 This section highlights various use cases for the **Attention Is All You Need** model, demonstrating its potential in practical applications. 
 
-One of the key use cases for this model is **Language Translation**, where it can be trained to translate between different languages.
+One of the key use cases for this model is `Language Translation`, where it can be trained to translate between different languages.
 
 ### Dataset 📂
 
