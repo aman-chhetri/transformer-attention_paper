@@ -121,6 +121,8 @@ This section highlights various use cases for the **Attention Is All You Need** 
 
 One of the key use cases for this model is `Language Translation`, where it can be trained to translate between different languages.
 
+---
+
 ### Dataset 📂
 
 For training and evaluating the model, we use the `English-French Language Translation Dataset` from Kaggle. This dataset provides parallel English-French sentences for machine translation tasks.
