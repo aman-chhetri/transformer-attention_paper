@@ -17,9 +17,8 @@ This is my from-scratch implementation of the original transformer architecture 
 4. [Implementation Details](#implementation-details) - ✅
 5. [Training](#training) - `TBA` (to be added)
 6. [Evaluation](#evaluation) - ✅
-7. [Usage](#usage) - `TBA`
-8. [Contributions](#contributions) - ✅
-9. [References](#references) - ✅
+7. [Contributions](#contributions) - ✅
+8. [References](#references) - ✅
 
 
 ## 1. Introduction 📘
@@ -111,18 +110,7 @@ After training, evaluate the model's performance on validation and test datasets
 * `Perplexity`: For language modeling tasks.
 
 
-<!-- 
-## 7. Usage 🚀
-Once the model is trained, you can use it for various NLP tasks like language translation or text generation.
-
-Example usage:
-
-```bash
-python generate.py --model path_to_trained_model --input "Translate English to French: Hello, how are you?"
-``` -->
-
-
-## 8. Contributions 🤝
+## 7. Contributions 🤝
 Contributions are welcome! If you find any bugs, issues, or have suggestions for improvements, feel free to open an issue or submit a pull request.
 
 To contribute:
@@ -133,7 +121,6 @@ To contribute:
 4. Submit a pull request to the main repository.
 
 
-## 9. References 📚
-<!-- 1. Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. A., Kaiser, Ł., & Polosukhin, I. (2017). Attention is all you need. NeurIPS. [Link](https://arxiv.org/abs/1706.03762) -->
+## 8. References 📚
 
 1. Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. A., Kaiser, Ł., & Polosukhin, I. (2017). Attention is all you need. [Link](https://arxiv.org/abs/1706.03762)
