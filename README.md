@@ -9,7 +9,7 @@ This is my from-scratch implementation of the original transformer architecture 
 </a>
 
 
-## Table of Contents
+### Table of Contents
 
 1. [Introduction](#introduction) 
 2. [Pre-requisites](#prerequisites) 
@@ -23,14 +23,14 @@ This is my from-scratch implementation of the original transformer architecture 
 9. [References](#references)
 
 
-## 1. Introduction 📘
+### 1. Introduction 📘
 
 The `Transformer` model, proposed in the paper *"Attention Is All You Need"*, eliminates the need for recurrent architectures (RNNs) and instead uses a `self-attention mechanism` to process sequential data. This allows the model to better capture relationships within data and enables parallelization, significantly improving training efficiency.
 
 In this repository, I implement the core ideas presented in the paper and provide a clear walkthrough of how to implement and train the Transformer for various NLP tasks.
 
 
-## 2. Prerequisites 🛠️
+### 2. Prerequisites 🛠️
 
 Before running the implementation, ensure you have the following dependencies:
 
@@ -46,7 +46,7 @@ You can install the required dependencies by running:
 pip install -r requirements.txt
 ```
 
-## 3. Architecture Overview 🏗️
+### 3. Architecture Overview 🏗️
 The architecture of the Transformer model consists of two main parts: the `Encoder` and the `Decoder`. Both of these components use stacked layers of multi-head self-attention and position-wise feedforward networks. 
 
 <p align="center">
