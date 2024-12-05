@@ -99,7 +99,7 @@ The Transformer model is trained using supervised learning on large-scale datase
 * `Metrics`: Perplexity and BLEU score for language translation tasks.
 
 <p align="center">
-  <img width="600" height="540" src="/assets/training_img.png" alt="Model Training Image">
+  <img src="/assets/training_img.png" alt="Model Training Image">
 </p>
 
 
@@ -110,7 +110,7 @@ After training, evaluate the model's performance on validation and test datasets
 * `Perplexity`: For language modeling tasks.
 
 <p align="center">
-  <img width="600" height="540" src="/assets/testing_img.png" alt="Model Testing Image">
+  <img src="/assets/testing_img.png" alt="Model Testing Image">
 </p>
 
 
