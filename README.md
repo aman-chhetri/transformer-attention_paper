@@ -98,12 +98,20 @@ The Transformer model is trained using supervised learning on large-scale datase
 * `Optimization`: Adam optimizer with learning rate scheduling.
 * `Metrics`: Perplexity and BLEU score for language translation tasks.
 
+<p align="center">
+  <img width="600" height="540" src="/assets/training_img.png" alt="Model Training Image">
+</p>
+
 
 ## 6. Evaluation 📊
 After training, evaluate the model's performance on validation and test datasets. The evaluation script calculates metrics such as:
 
 * `BLEU Score`: For machine translation tasks.
 * `Perplexity`: For language modeling tasks.
+
+<p align="center">
+  <img width="600" height="540" src="/assets/testing_img.png" alt="Model Testing Image">
+</p>
 
 
 ## 7. Use Cases 🚀
