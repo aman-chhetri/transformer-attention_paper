@@ -12,11 +12,12 @@ This is my from-scratch implementation of the original transformer architecture 
 ## Table of Contents
 
 1. [Introduction](#introduction) - ✅
-2. [Prerequisites](#prerequisites) - ✅
+2. [Pre-requisites](#prerequisites) - ✅
 3. [Architecture Overview](#architecture-overview) - ✅
 4. [Implementation Details](#implementation-details) - ✅
 5. [Training](#training) - `TBA` (to be added)
 6. [Evaluation](#evaluation) - ✅
+7. [Use Cases](#usecases) - ✅
 7. [Contributions](#contributions) - ✅
 8. [References](#references) - ✅
 
@@ -63,26 +64,26 @@ The architecture of the Transformer model consists of two main parts: the `Encod
 The implementation is based on the architecture described in the paper and follows these key steps:
 
 
-a. Input Processing:
+a. `Input Processing`:
 
 * Tokenization of input text.
 * Conversion of tokens to embeddings.
 * Adding positional encoding to token embeddings.
 
 
-b. Encoder Layer:
+b. `Encoder Layer`:
 
 * Multi-Head Self-Attention.
 * Add & Normalize.
 * Position-Wise Feedforward Networks.
 
-c. Decoder Layer:
+c. `Decoder Layer`:
 
 * Multi-Head Self-Attention.
 * Encoder-Decoder Attention.
 * Position-Wise Feedforward Networks.
 
-d. Final Output:
+d. `Final Output`:
 
 * Linear layer with softmax activation for generating the output sequence.
 
@@ -110,7 +111,34 @@ After training, evaluate the model's performance on validation and test datasets
 * `Perplexity`: For language modeling tasks.
 
 
-## 7. Contributions 🤝
+## 7. Use Cases 🚀
+
+This section highlights various use cases for the **Attention Is All You Need** model, demonstrating its potential in practical applications. One of the key use cases for this model is **Language Translation**, where it can be trained to translate between different languages.
+
+### Dataset 📂
+
+For training and evaluating the model, we use the `English-French Language Translation Dataset` from Kaggle. This dataset provides parallel English-French sentences for machine translation tasks.
+
+### Dataset Overview:
+
+- **Source**: [Kaggle - Language Translation (English/French)](https://www.kaggle.com/datasets/devicharith/language-translation-englishfrench/)
+- **Content**: The dataset consists of pairs of sentences in English and their corresponding French translations. This is a great resource for training models on language translation tasks.
+- **Format**: The dataset is provided in `.csv` format, containing two columns: one for the English sentence and the other for the French translation.
+- **Size**: The dataset contains approximately `10,000` pairs of English-French sentences, ideal for training a translation model.
+
+#### How to Use the Dataset:
+
+1. **Download the Dataset**:
+   - Go to the [Kaggle page](https://www.kaggle.com/datasets/devicharith/language-translation-englishfrench/) and download the dataset.
+   - If you don't have a Kaggle account, you need to create one and accept the dataset's terms of use.
+
+2. **Dataset Structure**:
+   - The dataset contains the following columns:
+     - `English`: The sentence in English.
+     - `French`: The corresponding translation in French.
+
+
+## 8. Contributions 🤝
 Contributions are welcome! If you find any bugs, issues, or have suggestions for improvements, feel free to open an issue or submit a pull request.
 
 To contribute:
@@ -121,6 +149,6 @@ To contribute:
 4. Submit a pull request to the main repository.
 
 
-## 8. References 📚
+## 9. References 📚
 
 1. Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. A., Kaiser, Ł., & Polosukhin, I. (2017). Attention is all you need. [Link](https://arxiv.org/abs/1706.03762)
