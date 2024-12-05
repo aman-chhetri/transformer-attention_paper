@@ -1,4 +1,4 @@
-# Attention Is All You Need Paper Implementation ✨📝
+## Attention Is All You Need Paper Implementation ✨📝
 
 This is my from-scratch implementation of the original transformer architecture from the following paper: [Vaswani, Ashish, et al. "Attention is all you need." Advances in neural information processing systems. 2017.](https://arxiv.org/abs/1706.03762)
 
@@ -121,9 +121,8 @@ This section highlights various use cases for the **Attention Is All You Need** 
 
 One of the key use cases for this model is `Language Translation`, where it can be trained to translate between different languages.
 
----
 
-### Dataset 📂
+## Dataset 📂
 
 For training and evaluating the model, we use the `English-French Language Translation Dataset` from Kaggle. This dataset provides parallel English-French sentences for machine translation tasks.
 
