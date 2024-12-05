@@ -30,7 +30,7 @@ The `Transformer` model, proposed in the paper *"Attention Is All You Need"*, el
 In this repository, I implement the core ideas presented in the paper and provide a clear walkthrough of how to implement and train the Transformer for various NLP tasks.
 
 
-## 2. Prerequisites 🛠️
+## 2. Pre-requisites 🛠️
 
 Before running the implementation, ensure you have the following dependencies:
 
