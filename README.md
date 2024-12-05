@@ -18,6 +18,7 @@ This is my from-scratch implementation of the original transformer architecture 
 5. [Training](#training) 
 6. [Evaluation](#evaluation) 
 7. [Use Cases](#usecases) 
+    * [Dataset](#dataset) 
 8. [Contributions](#contributions) 
 9. [References](#references)
 
