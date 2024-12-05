@@ -59,35 +59,35 @@ The architecture of the Transformer model consists of two main parts: the `Encod
 * `Multi-Head Attention`: Multiple attention mechanisms run in parallel, allowing the model to learn from different aspects of the input data simultaneously.
 * `Feedforward Networks`: Simple neural networks that process each token individually after the attention layer.
 
-<!-- 
+
 ## 4. Implementation Details 🧩
 The implementation is based on the architecture described in the paper and follows these key steps:
 
 
-Input Processing:
+a. Input Processing:
 
 * Tokenization of input text.
 * Conversion of tokens to embeddings.
 * Adding positional encoding to token embeddings.
 
 
-Encoder Layer:
+b. Encoder Layer:
 
 * Multi-Head Self-Attention.
 * Add & Normalize.
 * Position-Wise Feedforward Networks.
 
-Decoder Layer:
+c. Decoder Layer:
 
 * Multi-Head Self-Attention.
 * Encoder-Decoder Attention.
 * Position-Wise Feedforward Networks.
 
-Final Output:
+d. Final Output:
 
 * Linear layer with softmax activation for generating the output sequence.
 
-The entire model is built using either TensorFlow or PyTorch. You can switch between frameworks by selecting the appropriate implementation. -->
+The entire model can be built using either TensorFlow or PyTorch. You can switch between frameworks by selecting the appropriate implementation.
 
 
 <!-- 
