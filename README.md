@@ -90,19 +90,14 @@ d. `Final Output`:
 The entire model can be built using either TensorFlow or PyTorch. You can switch between frameworks by selecting the appropriate implementation.
 
 
-<!-- 
+
 ## 5. Training 🏋️‍♂️
 The Transformer model is trained using supervised learning on large-scale datasets (e.g., language translation). The training process involves:
 
-* Loss Function: Categorical Cross-Entropy Loss.
-* Optimization: Adam optimizer with learning rate scheduling.
-* Metrics: Perplexity and BLEU score for language translation tasks.
+* `Loss Function`: Categorical Cross-Entropy Loss.
+* `Optimization`: Adam optimizer with learning rate scheduling.
+* `Metrics`: Perplexity and BLEU score for language translation tasks.
 
-To train the model, simply run:
-
-```bash
-python train.py --dataset path_to_dataset
-``` -->
 
 ## 6. Evaluation 📊
 After training, evaluate the model's performance on validation and test datasets. The evaluation script calculates metrics such as:
