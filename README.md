@@ -128,6 +128,11 @@ For training and evaluating the model, we use the `English-French Language Trans
 - **Format**: The dataset is provided in `.csv` format, containing two columns: one for the English sentence and the other for the French translation.
 - **Size**: The dataset contains approximately `10,000` pairs of English-French sentences, ideal for training a translation model.
 
+<p align="center">
+  <img src="/assets/dataset.png" alt="Dataset Category Image">
+</p>
+
+
 #### How to Use the Dataset:
 
 1. **Download the Dataset**:
