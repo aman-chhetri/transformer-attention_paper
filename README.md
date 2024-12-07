@@ -5,7 +5,6 @@ This is my from-scratch implementation of the original transformer architecture 
 My Code Implementation: [Kaggle](https://www.kaggle.com/code/amankshetri/attention-is-all-you-need-paper-transformer)
 
 *If you wanna quickly try out the attention model from parallel text examples, then checkout this : [Kaggle](https://www.kaggle.com/code/amankshetri/easy-transformer-from-parallel-text-examples)*
-
 *But I recommend you to implement the above main code.*
 
 <a href=https://arxiv.org/pdf/1706.03762.pdf>
